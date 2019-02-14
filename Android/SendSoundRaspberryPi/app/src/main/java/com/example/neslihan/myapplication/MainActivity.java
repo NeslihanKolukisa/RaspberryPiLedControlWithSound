@@ -32,9 +32,9 @@ import org.ksoap2.transport.HttpTransportSE;
 
 public class MainActivity extends Activity {
 
-    public final static String URL = "http://tubitak.ozkanunsal.com/WebService1.asmx";
-    public final static String SOAP_ACTION = "http://tubitak.ozkanunsal.com/Send";
-    public static final String NAMESPACE = "http://tubitak.ozkanunsal.com/";
+    public final static String URL = "http://tubitak.ozkanunsal.com/RaspberryPiLedControlWithSound/WebService1.asmx";
+    public final static String SOAP_ACTION = "http://tubitak.ozkanunsal.com/RaspberryPiLedControlWithSound/Send";
+    public static final String NAMESPACE = "http://tubitak.ozkanunsal.com/RaspberryPiLedControlWithSound/";
     private static final String METHOD_NAME = "Send";
 
     private TextView txtSpeechInput;
